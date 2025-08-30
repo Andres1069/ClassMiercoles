@@ -59,3 +59,4 @@ CREATE TABLE IF NOT EXISTS t_detalle_pedidos(
     CONSTRAINT          fk_detalle_pedido_pedido FOREIGN KEY(id_pedido) REFERENCES t_pedidos(id_pedido),
     CONSTRAINT          fk_detalle_pedido_producto FOREIGN KEY(id_producto) REFERENCES t_productos(id_producto)
 )ENGINE=InnoDb;
+
